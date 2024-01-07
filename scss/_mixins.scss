@@ -1,0 +1,52 @@
+@import "constants";
+
+@mixin with-shadow {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+@mixin media-screen-large {
+    @media screen and (max-width: $screen-large) {
+        @content;
+    }
+}
+@mixin media-screen-medium {
+    @media screen and (max-width: $screen-medium) {
+        @content;
+    }
+}
+@mixin media-screen-tablet {
+    @media screen and (max-width: $screen-tablet) {
+        @content;
+    }
+}
+@mixin media-screen-small {
+    @media screen and (max-width: $screen-small) {
+        @content;
+    }
+}
+@mixin media-screen-xs {
+    @media screen and (max-width: $screen-xs) {
+        @content;
+    }
+}
+
+// for footer
+
+@mixin shadow-blog-14now {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 32px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(79, 85, 94);
+    background-color: rgba(26, 46, 77, 0.4);
+}
+
+@mixin shadow-blog-picture {
+}
