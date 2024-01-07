@@ -352,7 +352,7 @@
 
 .subscribe {
   height: 500px;
-  background: url(/assets/subscribe_bg.png);
+  background: url(assets/subscribe_bg.png);
   background-repeat: no-repeat;
   background-size: center;
   background-color: #ffffff;
