@@ -24,7 +24,7 @@
     width: 100%;
     margin: 0 auto auto;
 
-    background-image: url('/assets/header-bg.png');
+    background-image: url('assets/header-bg.png');
     background-size: cover;
 }
 
@@ -254,7 +254,7 @@
     margin-top: 105px;
     margin-left: 120px;
 
-    background-image: url("/assets/our-services_tomato.png");
+    background-image: url("assets/our-services_tomato.png");
     background-repeat: no-repeat;
     background-position: center;
 }
