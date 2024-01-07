@@ -125,7 +125,7 @@
 }
 
 .subscribe {
-    background-image: url(/assets/subscribe_bg.png);
+    background-image: url(assets/subscribe_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 320px;
