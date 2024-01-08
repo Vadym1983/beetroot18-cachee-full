@@ -129,7 +129,7 @@
 
 .gallery-button:hover {
     color:#b07cf7;
-    background: #b07cf7;
+/*     background: #b07cf7; */
     box-shadow: 0 10px 10px #b07cf7;
 }
 
@@ -188,6 +188,6 @@
 
 .subscribe-button:hover {
     color:#b07cf7;
-    background-color: #b07cf7;
+/*     background-color: #b07cf7; */
     box-shadow: 0 10px 10px #b07cf7;
 }
